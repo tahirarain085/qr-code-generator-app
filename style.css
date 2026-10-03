@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #112d02;
+    font-family: "Robot",sans-serif;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 1rem;
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #fafafa;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+canvas{
+    border: 1px solid #33e233;
+    width: 50%;
+    aspect-ratio: 1;
+    border-radius: 0.25;
+    display: none;
+}
+
+input{
+    width: 100%;
+    padding: 0.75rem 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #000000;
+    border-radius: 0.25rem;
+
+}
+
+button{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #112d02;
+    color:#fafafa;
+    border: none;
+    border-radius: 0.25;
+    cursor: pointer;
+
+}
+
+@media screen and (min-width:30rem) {
+    main{
+        height: min-content;
+        border-radius: 1rem;
+        position: absolute;
+        inset: 0;
+        margin: auto;
+    
+    }
+    
+}
