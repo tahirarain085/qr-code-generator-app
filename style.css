@@ -27,7 +27,7 @@ section{
 }
 canvas{
     border: 1px solid #33e233;
-    width: 50%;
+    width: 70%;
     aspect-ratio: 1;
     border-radius: 0.25;
     display: none;
